@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html {
+        font-size: 100px;
+      }
+
+      body {
+        background: grey;
+      }
+
+      div {
+        display: flex;
+      }
+      i {
+        background: rgb(59, 185, 155);
+        width: 0.08rem;
+        height: 0.08rem;
+        margin-left: 0.1rem;
+        border-radius: 50%;
+        box-shadow: 0 0 0.06rem;
+        animation: breathe___20-DZ 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes breathe___20-DZ {
+        0% {
+          opacity: 0.5;
+          box-shadow: 0 0 0.01rem;
+        }
+
+        to {
+          opacity: 1;
+          box-shadow: 0 0 0.12rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <i></i>
+    </div>
+  </body>
+</html>
